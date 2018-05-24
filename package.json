@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/rangle/hypercube#readme",
   "dependencies": {
+    "cors": "^2.8.4",
     "express": "^4.12.4",
     "formidable": "^1.0.17",
     "ramda": "^0.14.0"
