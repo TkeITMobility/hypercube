@@ -8,6 +8,9 @@ var formidable = require('formidable');
 
 var handlers = require('./handlers');
 
+// Enable CORS for all requests
+app.use(require('cors')());
+
 app.post('/upload', handlers.upload);
 
 app.set('port', process.env.PORT || config.port);
